@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css"
-import mixedImgs from "../../Images/mixedImgs.png"
+import mixedImgs from "../../../public/Images/mixedImgs.png"
 
 export default function Hero(){
     return(

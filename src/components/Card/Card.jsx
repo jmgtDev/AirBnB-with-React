@@ -1,6 +1,6 @@
 import styles from "./Card.module.css"
-import redStar from "../../Images/redStar.png"
-import littleBall from "../../Images/littleBall.png"
+import redStar from "../../../public/Images/redStar.png"
+import littleBall from "../../../public/Images/littleBall.png"
 
 export default function Card({img, rating, numberOfReviews, country, description, price}){
     return(
