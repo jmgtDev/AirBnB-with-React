@@ -47,5 +47,12 @@ export default [
         description: "Cooking various meals with Matt Damon",
         price: 200
      },
-
+     {
+        img: "../../public/Images/piano.png",
+        rating: 4.5,
+        numberOfReviews: 54,
+        country: "Pakinthan",
+        description: "Learn piano with Stivie Wonder",
+        price: 450
+     }
 ]
