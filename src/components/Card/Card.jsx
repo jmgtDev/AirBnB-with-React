@@ -14,7 +14,7 @@ export default function Card({img, rating, numberOfReviews, country, description
                 <span className={styles.country}>{country}</span>
             </div>
             <p className={styles.description}>{description}</p>
-            <p className={styles.price}><strong>{price}</strong> / person</p>
+            <p className={styles.price}><strong>From ${price}</strong> / person</p>
         </div>
     )
 }

@@ -19,51 +19,51 @@ export default function App(){
                 <div className={styles.cards}>
                     <Card
                         img={swimmer}
-                        rating="4.0"
-                        numberOfReviews="8"
+                        rating={4.5}
+                        numberOfReviews={8}
                         country="Brazil"
                         description="Life lessons with Katie Zaferes"
-                        price="From $136"
+                        price={136}
                     />
                     <Card
                         img={bride}
                         rating="3.0"
-                        numberOfReviews="5"
+                        numberOfReviews={5}
                         country="México"
                         description="Learn wedding photography"
-                        price="From $125"
+                        price={125}
                     />
                     <Card
                         img={bike}
                         rating="5.0"
-                        numberOfReviews="3"
+                        numberOfReviews={3}
                         country="France"
                         description="Group Mountain Biking"
-                        price="From $50"
+                        price={50}                   
                     />
                     <Card
                         img={yoga}
                         rating="1.0"
-                        numberOfReviews="4"
+                        numberOfReviews={4}
                         country="China"
                         description="Yoga lessons with Isadora Biden"
-                        price="From $136"
+                        price={136}
                     />
                     <Card
                         img={music}
                         rating="5.0"
-                        numberOfReviews="8"
+                        numberOfReviews={8}
                         country="Canada"
                         description="Learn to play guittar with John Doe"
-                        price="From $45"
+                        price={45}                    
                     />
                     <Card
                         img={cooking}
                         rating="0.0"
-                        numberOfReviews="0"
+                        numberOfReviews={0}
                         country="Argentina"
                         description="Cooking various meals with Matt Damon"
-                        price="From $200"
+                        price={200}
                     />
                 </div>
             </div>
