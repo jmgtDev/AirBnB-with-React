@@ -1,0 +1,50 @@
+.wholeCard{
+    min-height: 370px;
+    max-height: 371px;
+    overflow: auto;
+
+}
+
+.cardImg{
+    width: 176px;
+    height: 235px;
+    border-radius: 5px;
+}
+
+.soldOut{
+    background-color: white;
+    padding: 7px;
+    font-size: 10.24px;
+}
+
+.cardInfo{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.star{
+    width: 14px;
+}
+
+.numberOfReviews{
+    color: gray;
+}
+
+.country{
+color: gray;
+}
+
+.description{
+display: flex;
+max-width: 176px;
+font-size: 13px;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+.price{
+    font-size: 13px;
+}
