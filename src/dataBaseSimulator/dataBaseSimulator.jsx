@@ -54,5 +54,13 @@ export default [
         country: "Pakinthan",
         description: "Learn piano with Stivie Wonder",
         price: 450
-     }
+     },
+     {
+      img: "../../public/Images/singing.png",
+      rating: 3.3,
+      numberOfReviews: 47,
+      country: "Nicarágua",
+      description: "Learn to sing with Lady Gaga",
+      price: 980
+   }
 ]
