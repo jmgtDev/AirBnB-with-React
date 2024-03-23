@@ -10,13 +10,7 @@ export default function App(){
         return ( 
             <Card
                 key={card.cardId}
-                cardImg={card.cardImg}
-                cardRating={card.cardRating}
-                cardNumOfReviews={card.cardNumOfReviews}
-                cardCountry={card.cardCountry}
-                cardTitle={card.cardTitle}
-                cardPrice={card.cardPrice}
-                openSpots={card.openSpots}
+                {...card}
             />
         )
     })
