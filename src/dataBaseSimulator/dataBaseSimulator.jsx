@@ -1,66 +1,74 @@
 export default [
     {
-       img: "../../public/Images/swimmer.png",
-       rating: 4.5,
-       numberOfReviews: 6,
-       country: "USA",
-       description: "Swim like a pro with Michael Phelps",
-       price: 30
+      cardId: 1, 
+      cardImg: "../../public/Images/swimmer.png",
+      cardRating: 4.7,
+      cardNumOfReviews: 6,
+      cardCountry: "USA",
+      cardTitle: "Swim like a pro with Michael Phelps",
+      cardPrice: 30
     },
     {
-        img: "../../public/Images/bride.png",
-        rating: 3,
-        numberOfReviews: 5,
-        country: "Mexico",
-        description: "Learn wedding photography",
-        price: 125
+      cardId: 2,  
+      cardImg: "../../public/Images/bride.png",
+      cardRating: 3,
+      cardNumOfReviews: 5,
+      cardCountry: "Mexico",
+      cardTitle: "Learn wedding photography",
+      cardPrice: 125
      },
      {
-        img: "../../public/Images/bike.png",
-        rating: 5,
-        numberOfReviews: 3,
-        country: "France",
-        description: "Group Mountain Biking",
-        price: 50
+      cardId: 3,  
+      cardImg: "../../public/Images/bike.png",
+      cardRating: 5,
+      cardNumOfReviews: 3,
+      cardCountry: "France",
+      cardTitle: "Group Mountain Biking",
+      cardPrice: 50
      },
      {
-        img: "../../public/Images/yoga.png",
-        rating: 1,
-        numberOfReviews: 4,
-        country: "China",
-        description: "Yoga lessons with Isadora Biden",
-        price: 136
+      cardId: 4,  
+      cardImg: "../../public/Images/yoga.png",
+      cardRating: 1,
+      cardNumOfReviews: 4,
+      cardCountry: "China",
+      cardTitle: "Yoga lessons with Isadora Biden",
+      cardPrice: 136
      },
      {
-        img: "../../public/Images/music.png",
-        rating: 5,
-        numberOfReviews: 8,
-        country: "Canada",
-        description: "Learn to play guittar with John Doe",
-        price: 45
+      cardId: 5,  
+      cardImg: "../../public/Images/music.png",
+      cardRating: 5,
+      cardNumOfReviews: 8,
+      cardCountry: "Canada",
+      cardTitle: "Learn to play guittar with John Doe",
+      cardPrice: 45
      },
      {
-        img: "../../public/Images/cooking.png",
-        rating: 0,
-        numberOfReviews: 0,
-        country: "Argentina",
-        description: "Cooking various meals with Matt Damon",
-        price: 200
+      cardId: 6,  
+      cardImg: "../../public/Images/cooking.png",
+      cardRating: 0,
+      cardNumOfReviews: 0,
+      cardCountry: "Argentina",
+      cardTitle: "Cooking various meals with Matt Damon",
+      cardPrice: 200
      },
      {
-        img: "../../public/Images/piano.png",
-        rating: 4.5,
-        numberOfReviews: 54,
-        country: "Pakinthan",
-        description: "Learn piano with Stivie Wonder",
-        price: 450
+      cardId: 7,  
+      cardImg: "../../public/Images/piano.png",
+      cardRating: 4.5,
+      cardNumOfReviews: 54,
+      cardCountry: "Pakinthan",
+      cardTitle: "Learn piano with Stivie Wonder",
+      cardPrice: 450
      },
      {
-      img: "../../public/Images/singing.png",
-      rating: 3.3,
-      numberOfReviews: 47,
-      country: "Nicarágua",
-      description: "Learn to sing with Lady Gaga",
-      price: 980
+      cardId: 8,
+      cardImg: "../../public/Images/singing.png",
+      cardRating: 3.3,
+      cardNumOfReviews: 47,
+      cardCountry: "Nicarágua",
+      cardTitle: "Learn to sing with Lady Gaga",
+      cardPrice: 980
    }
 ]

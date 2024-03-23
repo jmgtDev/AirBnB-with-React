@@ -2,19 +2,20 @@ import Navbar from "../Navbar/Navbar"
 import Hero from "../Hero/Hero"
 import Card from "../Card/Card"
 import styles from "./App.module.css"
-import dados from "../../dataBaseSimulator/dataBaseSimulator.jsx"
+import cardsData from "../../dataBaseSimulator/dataBaseSimulator.jsx"
 
 
 export default function App(){
-    const datas = dados.map((dado)=>{
+    const cards = cardsData.map((card)=>{
         return ( 
             <Card
-                img={dado.img}
-                rating={dado.rating}
-                numberOfReviews={dado.numberOfReviews}
-                country={dado.country}
-                description={dado.description}
-                price={dado.price}
+                key={card.cardId}
+                cardImg={card.cardImg}
+                cardRating={card.cardRating}
+                cardNumOfReviews={card.cardNumOfReviews}
+                cardCountry={card.cardCountry}
+                cardTitle={card.cardTitle}
+                cardPrice={card.cardPrice}
             />
         )
     })
@@ -24,7 +25,7 @@ export default function App(){
             <div className={styles.heroAndCards}>
                 <Hero/>
                 <div className={styles.cards}>
-                    {datas}
+                    {cards}
                 </div>
             </div>
         </div>

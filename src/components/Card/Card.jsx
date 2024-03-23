@@ -2,19 +2,19 @@ import styles from "./Card.module.css"
 import redStar from "../../../public/Images/redStar.png"
 import littleBall from "../../../public/Images/littleBall.png"
 
-export default function Card({img, rating, numberOfReviews, country, description, price}){
+export default function Card({cardImg, cardRating, cardNumOfReviews, cardCountry, cardTitle, cardPrice}){
     return(
         <div className={styles.wholeCard}>
-            <img src={img} className={styles.cardImg}></img>
+            <img src={cardImg} className={styles.cardImg}></img>
             <div className={styles.cardInfo}>
                 <img src={redStar} className={styles.star}></img>
-                <span className={styles.rating}>{rating}</span>
-                <span className={styles.numberOfReviews}>({numberOfReviews})</span>
+                <span className={styles.rating}>{cardRating}</span>
+                <span className={styles.numberOfReviews}>({cardNumOfReviews})</span>
                 <img src={littleBall} className={styles.dot}></img>
-                <span className={styles.country}>{country}</span>
+                <span className={styles.country}>{cardCountry}</span>
             </div>
-            <p className={styles.description}>{description}</p>
-            <p className={styles.price}><strong>From ${price}</strong> / person</p>
+            <p className={styles.description}>{cardTitle}</p>
+            <p className={styles.price}><strong>From ${cardPrice}</strong> / person</p>
         </div>
     )
 }
