@@ -6,7 +6,8 @@ export default [
       cardNumOfReviews: 6,
       cardCountry: "USA",
       cardTitle: "Swim like a pro with Michael Phelps",
-      cardPrice: 30
+      cardPrice: 30,
+      openSpots: 1
     },
     {
       cardId: 2,  
@@ -15,7 +16,8 @@ export default [
       cardNumOfReviews: 5,
       cardCountry: "Mexico",
       cardTitle: "Learn wedding photography",
-      cardPrice: 125
+      cardPrice: 125,
+      openSpots: 0
      },
      {
       cardId: 3,  
@@ -24,7 +26,8 @@ export default [
       cardNumOfReviews: 3,
       cardCountry: "France",
       cardTitle: "Group Mountain Biking",
-      cardPrice: 50
+      cardPrice: 50,
+      openSpots: 3
      },
      {
       cardId: 4,  
@@ -33,7 +36,8 @@ export default [
       cardNumOfReviews: 4,
       cardCountry: "China",
       cardTitle: "Yoga lessons with Isadora Biden",
-      cardPrice: 136
+      cardPrice: 136,
+      openSpots: 5
      },
      {
       cardId: 5,  
@@ -42,7 +46,8 @@ export default [
       cardNumOfReviews: 8,
       cardCountry: "Canada",
       cardTitle: "Learn to play guittar with John Doe",
-      cardPrice: 45
+      cardPrice: 45,
+      openSpots: 0
      },
      {
       cardId: 6,  
@@ -51,7 +56,8 @@ export default [
       cardNumOfReviews: 0,
       cardCountry: "Argentina",
       cardTitle: "Cooking various meals with Matt Damon",
-      cardPrice: 200
+      cardPrice: 200,
+      openSpots: 8
      },
      {
       cardId: 7,  
@@ -60,7 +66,8 @@ export default [
       cardNumOfReviews: 54,
       cardCountry: "Pakinthan",
       cardTitle: "Learn piano with Stivie Wonder",
-      cardPrice: 450
+      cardPrice: 450,
+      openSpots: 15
      },
      {
       cardId: 8,
@@ -69,6 +76,7 @@ export default [
       cardNumOfReviews: 47,
       cardCountry: "Nicarágua",
       cardTitle: "Learn to sing with Lady Gaga",
-      cardPrice: 980
+      cardPrice: 980,
+      openSpots: 0
    }
 ]
